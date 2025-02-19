@@ -1,2 +1,2 @@
-# Programacion_2025_2
+# programacionPython
 Paredes Calderon Baruch Andre
