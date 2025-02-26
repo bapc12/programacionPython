@@ -1,1 +1,22 @@
+#condicionales 25-02-25
+import math as m
 
+radio= float(input("Dame el radio:\n"))
+
+print("Escoge una opción:")
+print("1) Obtener diametro")
+print("2) Obtener perímetro")
+print("3) Obtener área")
+opcion=int(input("teclea 1, 2 o 3:\n"))
+
+if opcion== 1:
+    diametro= 2*radio
+    print("EL diametro es:", diametro)
+elif opcion== 2:
+    perimetro= 2*m.pi*radio
+    print("EL perímetro es:", perimetro)
+elif opcion== 3:
+    area= m.pi*radio**2
+    print("EL área es:", area)
+else:
+    print("Solo hay tres opciones: 1, 2 o 3")
