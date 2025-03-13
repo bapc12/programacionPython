@@ -33,7 +33,7 @@ class Menu:
             print("2) Depositar")
             print("3) Salir")
 
-            opcion = input("¿Qué acción desea realizar? ").strip()
+            opcion = input("¿Qué acción desea realizar? ")
             if opcion == "1":
                 self.retirar()
             elif opcion == "2":
